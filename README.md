@@ -49,7 +49,7 @@ End-to-end guide for building production ML systems on Databricks - from data en
 
 ## Open Source Contributions
 
-Active contributor to [**MLflow**](https://github.com/mlflow/mlflow) (30K+ stars) - the leading open-source ML lifecycle platform.
+Active contributor to [**MLflow**](https://github.com/mlflow/mlflow) (23K+ stars) - the leading open-source ML lifecycle platform.
 
 **Recent PRs:**
 - [#19152](https://github.com/mlflow/mlflow/pull/19152) - `inference_params` support for LLM Judges *(Approved)*
