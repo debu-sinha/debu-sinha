@@ -37,8 +37,14 @@ End-to-end guide for building production ML systems on Databricks - from data en
 
 ---
 
-## Research Papers (2025)
+## Research
 
+<a href="https://scholar.google.com/citations?user=V2LfrPwAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white"/></a>
+
+**Affiliation:** Johns Hopkins University
+**Citations:** 18 | **Focus:** AI, ML, Cloud Computing, Deep Learning
+
+**Recent Papers (2025):**
 | Paper | Journal |
 |-------|---------|
 | Agentic AI: Autonomous Intelligence, Ethical Implications, and Societal Readiness | IJSRCSEIT |
