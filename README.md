@@ -56,7 +56,6 @@ Active contributor to [**MLflow**](https://github.com/mlflow/mlflow) (23K+ stars
 **Recent PRs:**
 - [#19152](https://github.com/mlflow/mlflow/pull/19152) - `inference_params` support for LLM Judges *(Approved)*
 - [#19237](https://github.com/mlflow/mlflow/pull/19237) - Phoenix & TruLens third-party scorer integrations
-- [#19094](https://github.com/mlflow/mlflow/pull/19094) - Batch inference support for LLM evaluations
 - [#19238](https://github.com/mlflow/mlflow/pull/19238) - Async predict support for ChatModel/ChatAgent
 - [#19248](https://github.com/mlflow/mlflow/pull/19248) - Configurable parallelism for GenAI evaluation
 
