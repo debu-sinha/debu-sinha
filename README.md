@@ -62,7 +62,7 @@ Active contributor to [**MLflow**](https://github.com/mlflow/mlflow) (30K+ stars
 
 ## Speaking
 
-- **TechFutures 2025** (NYC) - MLOps Workshop alongside speakers like Sam Altman, Marc Benioff
+- **TechFutures 2025** (NYC) - End-to-End MLOps Pipelines Workshop
 - **Data Con LA** (2021, 2022) - NLP and Feature Store talks ([YouTube](https://www.youtube.com/watch?v=xPuCCY93BMY))
 - **NYU Guest Lecture** - ML Pipeline with Apache Spark
 
