@@ -41,9 +41,9 @@ End-to-end guide for building production ML systems on Databricks - from data en
 
 | Paper | Journal |
 |-------|---------|
-| [Agentic AI: Autonomous Intelligence, Ethical Implications, and Societal Readiness](https://ijsrcseit.com/CSEIT251aboratory1364) | IJSRCSEIT |
-| [RAG: A Comprehensive Survey of Techniques, Applications, and Future Directions](https://scholar9.com/index.php/journal/article/view/167) | Scholar9 |
-| [Evaluating Large Language Models: Metrics, Benchmarks, and Future Directions](https://iaeme.com/Home/article_id/IJAEMS_05_01_001) | IAEME |
+| Agentic AI: Autonomous Intelligence, Ethical Implications, and Societal Readiness | IJSRCSEIT |
+| Retrieval Augmented Generation (RAG): A Comprehensive Survey | Scholar9 |
+| Evaluating Large Language Models: Metrics, Benchmarks, and Future Directions | IAEME |
 
 ---
 
