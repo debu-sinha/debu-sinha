@@ -1,6 +1,6 @@
 # Hey, I'm Debu Sinha
 
-**Lead Specialist Solutions Architect (AI/ML)** @ Databricks | Author | Open Source Contributor
+**Lead Applied AI/ML Engineer (Solutions Architecture)** @ Databricks | Author | Open Source Contributor
 
 Building ML platforms at scale. Helping enterprises ship AI from prototype to production.
 
