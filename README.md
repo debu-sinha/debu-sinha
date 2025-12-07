@@ -62,7 +62,7 @@ Active contributor to [**MLflow**](https://github.com/mlflow/mlflow) (30K+ stars
 
 ## Speaking
 
-- **TechFutures 2025** (NYC) - End-to-End MLOps Pipelines Workshop
+- **TechFutures 2025** (NYC) - End-to-End MLOps Pipelines Workshop ([GitHub](https://github.com/debu-sinha/techfutures-2025-mlops-databricks))
 - **Data Con LA 2022** - Simplifying AI/ML using Databricks Feature Store ([YouTube](https://www.youtube.com/watch?v=xPuCCY93BMY))
 - **Data Con LA 2021** - Detecting Fake Reviews at Scale using Spark and John Snow Labs ([YouTube](https://www.youtube.com/watch?v=5SA2GT-vBvY))
 - **NYU Guest Lecture** - ML Pipeline with Apache Spark
