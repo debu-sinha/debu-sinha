@@ -41,12 +41,25 @@ End-to-end guide for building production ML systems on Databricks - from data en
 
 <a href="https://scholar.google.com/citations?user=V2LfrPwAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white"/></a>  **Research Affiliate, Johns Hopkins University**
 
-| Paper | Journal |
-|-------|---------|
-| [DEMYSTIFYING LARGE LANGUAGE MODELS: A TECHNICAL DEEP DIVE](https://iaeme.com/MasterAdmin/Journal_uploads/IJCET/VOLUME_16_ISSUE_1/IJCET_16_01_180.pdf) | IJCET |
-| [Exploring the Latest Innovations in Reinforcement Learning for Real-World Impact](https://ijsrcseit.com/index.php/home/article/view/CSEIT251112170/CSEIT251112170)  | IJSRCET |
-| [THE TRANSFORMATIVE IMPACT OF AI ON EDUCATION: OPPORTUNITIES AND CHALLENGES](https://iaeme.com/MasterAdmin/Journal_uploads/IJRCAIT/VOLUME_8_ISSUE_1/IJRCAIT_08_01_233.pdf) | IAEME |
-| [AI IN HEALTHCARE: BRIDGING THE GAP BETWEEN DATA AND BETTER PATIENT OUTCOMES](https://www.irjmets.com/uploadedfiles/paper//issue_2_february_2025/67992/final/fin_irjmets1740491159.pdf) | IRJETS |
+### AI Reliability Under Distribution Shift
+
+A research program examining how AI systems fail when deployment conditions differ from training/calibration:
+
+| Paper | Focus | arXiv |
+|-------|-------|-------|
+| **The Semantic Illusion** | Embedding-based hallucination detection fails on RLHF outputs (95% coverage → 100% FPR) | [2512.15068](https://arxiv.org/abs/2512.15068) |
+| **ATCB** | Agents don't know when they'll fail—inverse accuracy-calibration relationship | [Code](https://github.com/debu-sinha/atcb-benchmark) |
+| **ConformalDrift** | Conformal guarantees collapse under shift (95% → 11% coverage) | [Code](https://github.com/debu-sinha/conformaldrift) |
+| **DRIFTBENCH** | RAG reliability degrades over time while SFR persists at 12% | [Code](https://github.com/debu-sinha/driftbench) |
+
+### Other Publications
+
+| Paper | Venue |
+|-------|-------|
+| [Demystifying Large Language Models](https://iaeme.com/MasterAdmin/Journal_uploads/IJCET/VOLUME_16_ISSUE_1/IJCET_16_01_180.pdf) | IJCET |
+| [Reinforcement Learning for Real-World Impact](https://ijsrcseit.com/index.php/home/article/view/CSEIT251112170/CSEIT251112170) | IJSRCET |
+| [AI in Education: Opportunities and Challenges](https://iaeme.com/MasterAdmin/Journal_uploads/IJRCAIT/VOLUME_8_ISSUE_1/IJRCAIT_08_01_233.pdf) | IAEME |
+| [AI in Healthcare: Data to Patient Outcomes](https://www.irjmets.com/uploadedfiles/paper//issue_2_february_2025/67992/final/fin_irjmets1740491159.pdf) | IRJMETS |
 
 ---
 
