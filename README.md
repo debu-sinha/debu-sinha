@@ -48,9 +48,6 @@ A research program examining how AI systems fail when deployment conditions diff
 | Paper | Focus | arXiv |
 |-------|-------|-------|
 | **The Semantic Illusion** | Embedding-based hallucination detection fails on RLHF outputs (95% coverage → 100% FPR) | [2512.15068](https://arxiv.org/abs/2512.15068) |
-| **ATCB** | Agents don't know when they'll fail—inverse accuracy-calibration relationship | [Code](https://github.com/debu-sinha/atcb-benchmark) |
-| **ConformalDrift** | Conformal guarantees collapse under shift (95% → 11% coverage) | [Code](https://github.com/debu-sinha/conformaldrift) |
-| **DRIFTBENCH** | RAG reliability degrades over time while SFR persists at 12% | [Code](https://github.com/debu-sinha/driftbench) |
 
 ### Other Publications
 
