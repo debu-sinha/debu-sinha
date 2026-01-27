@@ -47,7 +47,7 @@ A research program examining how AI systems fail when deployment conditions diff
 
 | Paper | Focus | arXiv |
 |-------|-------|-------|
-| **The Semantic Illusion** | Embedding-based hallucination detection fails on RLHF outputs (95% coverage → 100% FPR) | [2512.15068](https://arxiv.org/abs/2512.15068) |
+| **The Semantic Illusion** | Embedding-based hallucination detection fails on RLHF outputs (95% coverage to 100% FPR) | [2512.15068](https://arxiv.org/abs/2512.15068) |
 
 ### Other Publications
 
@@ -62,13 +62,53 @@ A research program examining how AI systems fail when deployment conditions diff
 
 ## Open Source Contributions
 
+### MLflow Core Contributor
+
 Active contributor to [**MLflow**](https://github.com/mlflow/mlflow) (23K+ stars) - the leading open-source ML lifecycle platform.
 
-**Recent PRs:**
-- [#19152](https://github.com/mlflow/mlflow/pull/19152) - `inference_params` support for LLM Judges *(Approved)*
-- [#19237](https://github.com/mlflow/mlflow/pull/19237) - Phoenix & TruLens third-party scorer integrations
-- [#19238](https://github.com/mlflow/mlflow/pull/19238) - Async predict support for ChatModel/ChatAgent
-- [#19248](https://github.com/mlflow/mlflow/pull/19248) - Configurable parallelism for GenAI evaluation
+#### Third-Party Scorer Ecosystem
+
+Building integrations that connect MLflow's GenAI evaluation with major LLM evaluation frameworks:
+
+| Integration | Status | PR | Ecosystem Reach |
+|-------------|--------|-----|-----------------|
+| **Phoenix (Arize)** | Merged | [#19473](https://github.com/mlflow/mlflow/pull/19473) | 500K+ monthly downloads |
+| **TruLens** | In Review | [#19492](https://github.com/mlflow/mlflow/pull/19492) | 100K+ monthly downloads |
+| **Guardrails AI** | In Review | [#20038](https://github.com/mlflow/mlflow/pull/20038) | 200K+ monthly downloads |
+
+#### UV Package Manager Support
+
+Native [UV](https://github.com/astral-sh/uv) integration for MLflow model logging - automatic dependency inference for UV-managed projects:
+
+| Feature | PR | Description |
+|---------|-----|-------------|
+| UV Support (Phase 1 + 2) | [#20344](https://github.com/mlflow/mlflow/pull/20344) | Auto-detection, `uv export`, dependency groups, UV sync |
+
+[Design Doc](https://github.com/debu-sinha/design-docs/blob/main/mlflow/uv-support-design-doc-v2.md) | [UV Issue #17702](https://github.com/astral-sh/uv/issues/17702)
+
+#### Other Contributions
+
+| PR | Feature | Status |
+|----|---------|--------|
+| [#19152](https://github.com/mlflow/mlflow/pull/19152) | `inference_params` for LLM Judges (temperature, top_p) | Merged |
+| [#19248](https://github.com/mlflow/mlflow/pull/19248) | Configurable parallelism (`MLFLOW_GENAI_EVAL_MAX_SCORER_WORKERS`) | Merged |
+
+### MLflow-Modal Plugin
+
+[![PyPI](https://img.shields.io/pypi/v/mlflow-modal?style=flat-square)](https://pypi.org/project/mlflow-modal/)
+
+Serverless GPU deployment for MLflow models on [Modal](https://modal.com):
+
+```bash
+pip install mlflow-modal
+mlflow deployments create -t modal -m models:/my-model/1 --name my-deployment
+```
+
+- Auto-scaling from zero to thousands of GPUs (T4 to H200)
+- Sub-second cold starts with Modal's container snapshots
+- Native MLflow deployment interface
+
+[GitHub](https://github.com/debu-sinha/mlflow-modal) | [PyPI](https://pypi.org/project/mlflow-modal/)
 
 ---
 
