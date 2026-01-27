@@ -108,7 +108,7 @@ mlflow deployments create -t modal -m models:/my-model/1 --name my-deployment
 - Sub-second cold starts with Modal's container snapshots
 - Native MLflow deployment interface
 
-[GitHub](https://github.com/debu-sinha/mlflow-modal) | [PyPI](https://pypi.org/project/mlflow-modal/)
+[GitHub](https://github.com/debu-sinha/mlflow-modal-deploy) | [PyPI](https://pypi.org/project/mlflow-modal/)
 
 ---
 
