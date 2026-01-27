@@ -95,12 +95,12 @@ Native [UV](https://github.com/astral-sh/uv) integration for MLflow model loggin
 
 ### MLflow-Modal Plugin
 
-[![PyPI](https://img.shields.io/pypi/v/mlflow-modal?style=flat-square)](https://pypi.org/project/mlflow-modal/)
+[![PyPI](https://img.shields.io/pypi/v/mlflow-modal-deploy?style=flat-square)](https://pypi.org/project/mlflow-modal-deploy/)
 
 Serverless GPU deployment for MLflow models on [Modal](https://modal.com):
 
 ```bash
-pip install mlflow-modal
+pip install mlflow-modal-deploy
 mlflow deployments create -t modal -m models:/my-model/1 --name my-deployment
 ```
 
@@ -108,7 +108,7 @@ mlflow deployments create -t modal -m models:/my-model/1 --name my-deployment
 - Sub-second cold starts with Modal's container snapshots
 - Native MLflow deployment interface
 
-[GitHub](https://github.com/debu-sinha/mlflow-modal-deploy) | [PyPI](https://pypi.org/project/mlflow-modal/)
+[GitHub](https://github.com/debu-sinha/mlflow-modal-deploy) | [PyPI](https://pypi.org/project/mlflow-modal-deploy/)
 
 ---
 
