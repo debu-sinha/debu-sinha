@@ -72,19 +72,21 @@ Building integrations that connect MLflow's GenAI evaluation with major LLM eval
 
 | Integration | Status | PR | Ecosystem Reach |
 |-------------|--------|-----|-----------------|
-| **Phoenix (Arize)** | Merged | [#19473](https://github.com/mlflow/mlflow/pull/19473) | 500K+ monthly downloads |
-| **TruLens** | In Review | [#19492](https://github.com/mlflow/mlflow/pull/19492) | 100K+ monthly downloads |
-| **Guardrails AI** | In Review | [#20038](https://github.com/mlflow/mlflow/pull/20038) | 200K+ monthly downloads |
+| **Phoenix (Arize)** | ✅ Merged | [#19473](https://github.com/mlflow/mlflow/pull/19473) | 500K+ monthly downloads |
+| **TruLens** | 🔄 In Review | [#19492](https://github.com/mlflow/mlflow/pull/19492) | 100K+ monthly downloads |
+| **Guardrails AI** | ✅ Approved | [#20038](https://github.com/mlflow/mlflow/pull/20038) | 200K+ monthly downloads |
+
+*Combined ecosystem reach: 18M+ monthly PyPI downloads (MLflow) + 800K+ (integrations)*
 
 #### UV Package Manager Support
 
 Native [UV](https://github.com/astral-sh/uv) integration for MLflow model logging - automatic dependency inference for UV-managed projects:
 
-| Feature | PR | Description |
-|---------|-----|-------------|
-| UV Support (Phase 1 + 2) | [#20344](https://github.com/mlflow/mlflow/pull/20344) | Auto-detection, `uv export`, dependency groups, UV sync |
+| Feature | Status | PR | Description |
+|---------|--------|-----|-------------|
+| UV Support (Phase 1 + 2) | 🔄 In Review | [#20344](https://github.com/mlflow/mlflow/pull/20344) | Auto-detection, `uv export`, dependency groups, UV sync |
 
-[Design Doc](https://github.com/debu-sinha/design-docs/blob/main/mlflow/uv-support-design-doc-v2.md) | [UV Issue #17702](https://github.com/astral-sh/uv/issues/17702)
+[Design Doc](https://github.com/debu-sinha/design-docs/blob/main/mlflow/uv-support-design-doc-v2.md) | [GitHub Issue #12478](https://github.com/mlflow/mlflow/issues/12478)
 
 #### Other Contributions
 
