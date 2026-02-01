@@ -113,7 +113,7 @@ mlflow deployments create -t modal -m models:/my-model/1 --name my-deployment
 ## Book
 
 <a href="https://www.amazon.com/dp/1801812039">
-<img src="https://m.media-amazon.com/images/I/71z5VfSjNQL._SY466_.jpg" alt="Practical Machine Learning on Databricks" width="150" align="left" style="margin-right: 15px;"/>
+<img src="assets/book-cover.jpg" alt="Practical Machine Learning on Databricks" width="150" align="left" style="margin-right: 15px;"/>
 </a>
 
 ### [Practical Machine Learning on Databricks](https://www.amazon.com/dp/1801812039)
