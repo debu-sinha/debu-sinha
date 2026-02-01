@@ -19,6 +19,15 @@ Architect of ML platforms at scale. Designing cross-ecosystem GenAI evaluation i
 
 ---
 
+## Recognition & Industry Adoption
+
+- **MLflow Core Contributor** - Recognized contributor to the industry-standard ML lifecycle platform (23K+ GitHub stars)
+- **Ecosystem Architect** - Designed the third-party scorer integration pattern now used across Phoenix, TruLens, and Guardrails AI
+- **Design Doc Author** - Technical designs referenced by MLflow maintainers for UV integration ([Issue #12478](https://github.com/mlflow/mlflow/issues/12478))
+- **Cross-Project Impact** - Bug fixes accepted by TruLens and LangGraph maintainers
+
+---
+
 ## Tech Stack
 
 <p align="left">
@@ -125,7 +134,7 @@ End-to-end guide for building production ML systems on Databricks - from data en
 
 ---
 
-## Research
+## Research & Publications
 
 <a href="https://scholar.google.com/citations?user=V2LfrPwAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white"/></a>  **Research Affiliate, Johns Hopkins University**
 
@@ -170,6 +179,8 @@ End-to-end guide for building production ML systems on Databricks - from data en
 <img src="https://img.shields.io/badge/IETE-Fellow-blue?style=flat-square"/>
 <img src="https://img.shields.io/badge/IAEME-Fellow-green?style=flat-square"/>
 </p>
+
+**IEEE Senior Member** - Recognized for significant contributions to the profession (requires 10+ years experience and notable achievements)
 
 ---
 
