@@ -2,7 +2,7 @@
 
 **Principal ML Engineer** @ Databricks | Author | Open Source Contributor | IEEE Senior Member
 
-Architect of ML platforms at scale. Designing cross-ecosystem GenAI evaluation infrastructure used by **18M+ developers monthly**.
+Building ML platforms at scale. Implemented 3 of 5 third-party scorer integrations in MLflow's GenAI evaluation ecosystem, reaching **18M+ developers monthly**.
 
 ---
 
@@ -12,7 +12,7 @@ Architect of ML platforms at scale. Designing cross-ecosystem GenAI evaluation i
 <tr>
 <td align="center"><b>18M+</b><br/>Monthly PyPI Downloads<br/>(MLflow ecosystem)</td>
 <td align="center"><b>7</b><br/>PRs Merged to MLflow<br/>(Core contributor)</td>
-<td align="center"><b>4</b><br/>Ecosystem Integrations<br/>(Phoenix, TruLens, Guardrails, Modal)</td>
+<td align="center"><b>3 of 5</b><br/>Third-Party Scorers<br/>(Phoenix, TruLens, Guardrails)</td>
 <td align="center"><b>1</b><br/>Published Book<br/>(Best-seller)</td>
 </tr>
 </table>
@@ -22,7 +22,7 @@ Architect of ML platforms at scale. Designing cross-ecosystem GenAI evaluation i
 ## Recognition & Industry Adoption
 
 - **MLflow Core Contributor** - Recognized contributor to the industry-standard ML lifecycle platform (23K+ GitHub stars)
-- **Ecosystem Architect** - Designed the third-party scorer integration pattern now used across Phoenix, TruLens, and Guardrails AI
+- **Third-Party Scorer Implementer** - Implemented 3 of 5 third-party scorer integrations (Phoenix, TruLens, Guardrails AI)
 - **Design Doc Author** - Technical designs referenced by MLflow maintainers for UV integration ([Issue #12478](https://github.com/mlflow/mlflow/issues/12478))
 - **Cross-Project Impact** - Bug fixes accepted by TruLens and LangGraph maintainers
 
@@ -51,9 +51,9 @@ Architect of ML platforms at scale. Designing cross-ecosystem GenAI evaluation i
 
 Active contributor to [**MLflow**](https://github.com/mlflow/mlflow) (23K+ stars, 18M+ monthly downloads) - the industry-standard open-source ML lifecycle platform.
 
-#### Unified LLM Evaluation Ecosystem
+#### Third-Party Scorer Integrations
 
-Designed and implemented a cross-ecosystem integration architecture connecting MLflow's GenAI evaluation with major LLM evaluation frameworks:
+Implemented 3 of 5 third-party scorer integrations for MLflow's GenAI evaluation framework, connecting it with major LLM evaluation libraries:
 
 | Integration | Status | PR | Impact |
 |-------------|--------|-----|--------|
