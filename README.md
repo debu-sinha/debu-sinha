@@ -24,7 +24,7 @@ Building ML platforms at scale. Implemented 3 of 5 third-party scorer integratio
 - **MLflow Core Contributor** - Recognized contributor to the industry-standard ML lifecycle platform (23K+ GitHub stars)
 - **Third-Party Scorer Implementer** - Implemented 3 of 5 third-party scorer integrations (Phoenix, TruLens, Guardrails AI)
 - **Design Doc Author** - Technical designs referenced by MLflow maintainers for UV integration ([Issue #12478](https://github.com/mlflow/mlflow/issues/12478))
-- **Cross-Project Impact** - Bug fixes accepted by TruLens and LangGraph maintainers
+- **Cross-Project Impact** - Bug fixes merged in TruLens; PRs open in LangGraph
 
 ---
 
