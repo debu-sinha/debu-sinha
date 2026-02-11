@@ -91,14 +91,12 @@ End-to-end guide for building production ML systems. Best-seller in category.
 
 ### Research Papers
 
-<a href="https://scholar.google.com/citations?user=V2LfrPwAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white"/></a> Research Affiliate, Johns Hopkins University
+<a href="https://scholar.google.com/citations?user=V2LfrPwAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white"/></a>
 
 | Paper | Focus | Venue |
 |-------|-------|-------|
 | **The Semantic Illusion** | Hallucination detection failure modes | [arXiv:2512.15068](https://arxiv.org/abs/2512.15068) |
-| **Demystifying Large Language Models** | LLM architecture survey | [IJCET](https://iaeme.com/MasterAdmin/Journal_uploads/IJCET/VOLUME_16_ISSUE_1/IJCET_16_01_180.pdf) |
-| **Reinforcement Learning for Real-World Impact** | RL applications | [IJSRCET](https://ijsrcseit.com/index.php/home/article/view/CSEIT251112170/CSEIT251112170) |
-| **AI in Healthcare** | Clinical ML pipelines | [IRJMETS](https://www.irjmets.com/uploadedfiles/paper//issue_2_february_2025/67992/final/fin_irjmets1740491159.pdf) |
+| **Learning to Translate with Products of Novices** | Open-ended MT challenge problems | [TACL 2013](https://aclanthology.org/Q13-1014/) |
 
 ---
 
