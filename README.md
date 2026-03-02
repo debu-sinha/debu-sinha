@@ -1,6 +1,6 @@
 # Debu Sinha
 
-**Principal ML Engineer** @ Databricks | Author | IEEE Senior Member
+**Applied AI/ML** @ Databricks | Author | IEEE Senior Member
 
 I build evaluation and safety infrastructure for AI systems. Most of my recent open-source work is in LLM evaluation frameworks, security hardening, and deployment tooling.
 
