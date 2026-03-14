@@ -8,7 +8,7 @@ I build evaluation and safety infrastructure for AI systems. Most of my recent o
 
 ## Inspect AI (UK AI Safety Institute)
 
-[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) is the UK government's framework for evaluating AI model capabilities and safety (31M+ monthly PyPI downloads).
+[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) is the UK government's framework for evaluating AI model capabilities and safety (26M+ monthly PyPI downloads).
 
 - **[MLflow tracking hook](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3433)** - Hierarchical experiment tracking with per-sample metrics and real-time event streaming via `on_sample_event`
 - **[Artifact logging extension](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3483)** - Sample result tables and eval log artifacts for post-hoc analysis
@@ -20,7 +20,7 @@ First hook integration to use the real-time `on_sample_event` API for per-call m
 
 ## MLflow Core Contributor
 
-[MLflow](https://github.com/mlflow/mlflow) is the most widely adopted open-source ML lifecycle platform (23K+ stars, 18M+ monthly PyPI downloads).
+[MLflow](https://github.com/mlflow/mlflow) is the most widely adopted open-source ML lifecycle platform (24K+ stars, 32M+ monthly PyPI downloads).
 
 ### GenAI Evaluation Framework
 
@@ -39,7 +39,7 @@ Built the third-party scorer integrations that connect MLflow's evaluation frame
 ### Blog Posts
 
 - **[Evaluating LLMs with TruLens and MLflow](https://mlflow.org/blog/mlflow-trulens-evaluation)** - Co-authored with Josh Reini (Snowflake)
-- **[Third-Party Scorers for GenAI Evaluation](https://mlflow.org/blog/third-party-scorers)** - MLflow ecosystem evaluation guide
+- **[Third-Party Scorers for GenAI Evaluation](https://mlflow.org/blog/third-party-scorers)** - Co-authored with MLflow team
 
 ---
 
