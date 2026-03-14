@@ -2,7 +2,19 @@
 
 **Applied AI/ML** @ Databricks | Author | IEEE Senior Member
 
-I build evaluation and safety infrastructure for AI systems. Most of my recent open-source work is in LLM evaluation frameworks, security hardening, and deployment tooling.
+I build evaluation and safety infrastructure for AI systems. Most of my recent open-source work is in LLM evaluation frameworks, AI safety tooling, and deployment infrastructure.
+
+---
+
+## Inspect AI (UK AI Safety Institute)
+
+[Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) is the UK government's framework for evaluating AI model capabilities and safety (31M+ monthly PyPI downloads).
+
+- **[MLflow tracking hook](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3433)** - Hierarchical experiment tracking with per-sample metrics and real-time event streaming via `on_sample_event`
+- **[Artifact logging extension](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3483)** - Sample result tables and eval log artifacts for post-hoc analysis
+- **[Extensions page listing](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3492)** - Added MLflow hook to the Inspect extensions registry
+
+First hook integration to use the real-time `on_sample_event` API for per-call model and tool event tracking.
 
 ---
 
@@ -20,11 +32,14 @@ Built the third-party scorer integrations that connect MLflow's evaluation frame
 
 ### Infrastructure
 
+- **[uv package manager support](https://github.com/mlflow/mlflow/pull/20344)** - Native uv lock file detection and dependency resolution for model logging (+1,780 lines)
 - **[LLM Judge inference parameters](https://github.com/mlflow/mlflow/pull/19152)** - Temperature, top_p, max_tokens control for evaluation reproducibility
 - **[Scorer parallelism](https://github.com/mlflow/mlflow/pull/19248)** - `MLFLOW_GENAI_EVAL_MAX_SCORER_WORKERS` for resource-constrained environments
-- **[Modal deployment docs](https://github.com/mlflow/mlflow/pull/20032)** - Added Modal as a supported deployment target
 
-[Design docs](https://github.com/debu-sinha/design-docs/) | Blog posts pending on [mlflow.org/blog](https://mlflow.org/blog)
+### Blog Posts
+
+- **[Evaluating LLMs with TruLens and MLflow](https://mlflow.org/blog/mlflow-trulens-evaluation)** - Co-authored with Josh Reini (Snowflake)
+- **[Third-Party Scorers for GenAI Evaluation](https://mlflow.org/blog/third-party-scorers)** - MLflow ecosystem evaluation guide
 
 ---
 
@@ -44,9 +59,7 @@ Hardened LlamaIndex against code execution vulnerabilities and improved API reli
 
 **TruLens (Snowflake)** - [Instrumentation crash fix](https://github.com/truera/trulens/pull/2328), [Databricks compatibility](https://github.com/truera/trulens/pull/2308), [MLflow integration docs](https://github.com/truera/trulens/pull/2344), [pkg_resources fix](https://github.com/truera/trulens/pull/2351)
 
-**Guardrails AI** - [uv support with validator registry](https://github.com/guardrails-ai/guardrails/pull/1416), [Hub API key fix](https://github.com/guardrails-ai/guardrails/pull/1403), [MLflow integration docs](https://github.com/guardrails-ai/guardrails/pull/1394), [concurrency fix](https://github.com/guardrails-ai/secrets_present/pull/10)
-
-**[Excalidraw MCP](https://github.com/excalidraw/excalidraw-mcp/pull/18)** - Path traversal and resource exhaustion hardening
+**Guardrails AI** - [Dynamic registry loading](https://github.com/guardrails-ai/guardrails/pull/1422), [uv support with validator registry](https://github.com/guardrails-ai/guardrails/pull/1416), [Hub API key fix](https://github.com/guardrails-ai/guardrails/pull/1403), [MLflow integration docs](https://github.com/guardrails-ai/guardrails/pull/1394)
 
 ---
 
@@ -89,9 +102,12 @@ pip install mlflow-modal-deploy
 
 | Event | Topic |
 |-------|-------|
+| ODSC AI East 2026 (Boston) | MLflow Evaluation Ecosystem (upcoming, Apr 28-30) |
 | TechFutures 2025 (NYC) | [End-to-End MLOps Workshop](https://github.com/debu-sinha/techfutures-2025-mlops-databricks) |
+| [Hevo Data Panel](https://hevodata.com/webinar/building-and-managing-the-modern-datastore-the-data-lakehouse/) | Building and Managing the Modern Data Lakehouse |
 | Data Con LA 2022 | [Databricks Feature Store](https://www.youtube.com/watch?v=xPuCCY93BMY) |
 | Data Con LA 2021 | [Fraud Detection at Scale](https://www.youtube.com/watch?v=5SA2GT-vBvY) |
+| [Databricks Community Talk](https://www.youtube.com/watch?v=btEya9kdW4Y) | ML on Databricks |
 | NYU Guest Lecture | ML Pipelines with Apache Spark |
 
 ---
