@@ -2,7 +2,7 @@
 
 **Principal MLE** @ Databricks | **IEEE Senior Member**
 
-I build evaluation and safety infrastructure for AI systems. Core contributor to [MLflow](https://github.com/mlflow/mlflow)'s GenAI scoring pipeline and the first MLflow integration for [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai).
+I build evaluation and safety infrastructure for AI systems. Built [MLflow](https://github.com/mlflow/mlflow)'s third-party scorer framework ([Phoenix](https://github.com/mlflow/mlflow/pull/19473), [TruLens](https://github.com/mlflow/mlflow/pull/19492), [Guardrails](https://github.com/mlflow/mlflow/pull/20038)) and the first MLflow tracking integration for [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai/pull/3433).
 
 ---
 
