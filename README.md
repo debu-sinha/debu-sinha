@@ -20,7 +20,6 @@ into the GenAI eval pipeline.
 - **[omnigent-mlflow](https://pypi.org/project/omnigent-mlflow/) v0.1.1** on PyPI — MLflow tracing adapter for omnigent agents (one span per StreamHooks callback, one trace per turn) while the upstream work lands.
 - **[inspect-mlflow](https://github.com/debu-sinha/inspect-mlflow) v0.8.0** — cost + latency tracking on every Inspect AI sample, plus S3 artifact upload.
 
-## Sustained OSS record (last 6 months: 38 merged, 6 open)
 
 | Project | Merged | What landed |
 |---|---:|---|
