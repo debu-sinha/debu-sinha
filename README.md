@@ -32,7 +32,7 @@ Reviewer for NeurIPS 2026 (main track, Evaluations & Datasets, Position Papers).
 
 ## Writing on mlflow.org
 
-- [Reproducible Model Dependencies with uv and MLflow](https://mlflow.org/blog/mlflow-uv-dependency-management)
+- [Reproducible Model Dependencies with uv and MLflow](https://mlflow.org/docs/latest/ml/model/dependencies/#using-uv-for-dependency-management)
 - [Tracking and Debugging AI Safety Evaluations with Inspect AI and MLflow](https://mlflow.org/blog/inspect-mlflow-integration)
 - [Agent Trace Evaluation with TruLens Scorers in MLflow](https://mlflow.org/blog/mlflow-trulens-evaluation)
 - [Deterministic Safety and PII Checks with Guardrails AI in MLflow](https://mlflow.org/blog/mlflow-guardrails-scorers)
